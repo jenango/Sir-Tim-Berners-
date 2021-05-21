@@ -86,3 +86,14 @@ p{
     position:relative;
     display:table-cell;
 }
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.article:hover{
+    color:darkmagenta;
+}
