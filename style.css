@@ -10,17 +10,13 @@ body{
 }
 #welcome{
     position: absolute;
-    height: 800px;
     color:darkolivegreen;
-    left:0;
-    right: 0;
-    top:0;
-    bottom: 0;
     background-color: linear-gradient(#05ffa8 0%, #9bff05 100%);
     width: 100%;
     height: 100%;
     display:table;
-    overflow:hidden;
+    bottom: 0;
+    z-index: 9;
         
 
 }
@@ -59,27 +55,28 @@ p{
     margin:25px auto;
 }
 .menu{
-    list-style: none;
-    position: absolute;
+    position: fixed;
     font-family: cursive;
     cursor: pointer;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    margin-top: 0px;
     z-index: 10;
+    width:100%;
+    list-style: none;
 }
 .links{
-    float: left;
+   
     color: darkviolet;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-      padding-right: 9px;
+    padding-left: 33px;
+      padding-right: 25px;
     font-family: cursive;
     font-size: 18px;
+    float: left;
     
 }
 .links:hover{
-    background-color: deeppink;
+   font-size: 25px;
+    text-decoration: underline;
 }
 .parallax-inner{
     vertical-align: middle;
@@ -92,8 +89,28 @@ html{
 }
 a{
     text-decoration: none;
-    
+    color: darkorchid;
+    text-shadow:2px 2px gainsboro;
 }
 .article:hover{
     color:darkmagenta;
+}
+#writings a{
+text-shadow: none;
+text-decoration: underline;
+color: aqua;    
+}
+#contact{
+    background: red;
+    
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: aliceblue;
+    text-shadow: none;
 }
